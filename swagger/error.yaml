@@ -1,0 +1,56 @@
+# /swagger/Error.yml
+
+
+components:
+  #-------------------------------
+  # Reusable schemas (data models)
+  #-------------------------------
+  schemas:
+    Error:
+      properties :
+        serverName:
+          type: integer
+          description: 서버 이름
+          required: true
+        port:
+          type: string
+          description: 제품 이름
+          required: true
+        url:
+          type: string
+          description: 요청 URL
+          required: true
+        serviceName:
+          type: integer
+          description: 서비스 이름
+          required: false
+        detail :
+          type: string
+          description: 추가 설명이 있으면 기입할 것.
+        summary :
+          type: string
+          description: 에러 내용 요약.
+          required: true
+        content :
+          type: string
+          description: 에러 내용에 대한 상세한 설명을 기입할 것.
+          required: true
+        errorCode :
+          type: integer
+          description: 정해진 에러 코드
+          required: true
+        createAt :
+          type: timestamps
+          description: 자동으로 생성 시간이 만들어짐, 따로 사용x
+          required: false
+        updateAt :
+          type: timestamps
+          description: 자동으로 최근 업데이트 시간이 만들어짐, 따로 사용x
+          required: false
+
+          
+
+
+
+
+

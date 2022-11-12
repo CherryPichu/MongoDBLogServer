@@ -1,0 +1,34 @@
+{
+  "name": "mongodblogserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CherryPichu/MongoDBLogServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CherryPichu/MongoDBLogServer/issues"
+  },
+  "homepage": "https://github.com/CherryPichu/MongoDBLogServer#readme",
+  "devDependencies": {
+    "i": "^0.3.7",
+    "npm": "^9.1.1",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "oas3-tools": "^2.2.3",
+    "swagger-cli": "^4.0.4",
+    "yamljs": "^0.3.0"
+  }
+}
